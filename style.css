@@ -1,4 +1,39 @@
-*
+
+.popupBox
+{
+    justify-content: center;
+    border-radius: 20px;
+    width: 18rem;
+    margin-left: 20px;
+    border: 0.001px solid black;
+}
+
+.popupBox:hover
+{
+    transform: scale(1.1);
+    border: 0px;
+    box-shadow: 0 0 10px rgb(128, 127, 127), 0 0 20px rgb(128, 127, 127), 0 0 30px rgb(128, 127, 127), 0 0 40px rgb(128, 127, 127);
+}
+
+h4
+{
+    padding: 10px 10px;
+    color: black;
+    text-decoration: none;
+    background-color: cornflowerblue;
+    width: 100px;
+    font-family: cursive;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+
+/*
 {
     margin: 0 auto;
     padding: 0 auto;
@@ -41,3 +76,4 @@
     background-color: rgb(49, 217, 255);
     box-shadow: 0 0 10px rgb(49, 217, 255), 0 0 20px rgb(49, 217, 255), 0 0 30px rgb(49, 217, 255), 0 0 40px rgb(49, 217, 255);
 }
+*/
